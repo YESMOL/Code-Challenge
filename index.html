@@ -1,28 +1,26 @@
+
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
-    <title>Formulario de Registro</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge_para_sufrir</title>
 </head>
 <body>
-    <h1>Formulario de Registro</h1>
-    <form id="registroForm">
+    <form action="" id="formulario">
+
         <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required><br>
-
+        <input type="text" id="nombre">
+        
         <label for="apellido">Apellido:</label>
-        <input type="text" id="apellido" name="apellido" required><br>
-
-        <label for="fechaNacimiento">Fecha de Nacimiento:</label>
-        <input type="date" id="fechaNacimiento" name="fechaNacimiento" required><br>
-
-        <button type="button" onclick="enviarFormulario()">Enviar</button>
+        <input type="text" id="apellido">
+        
+        <label for="fecha">Fecha de nacimiento:</label>
+        <input type="date" id="fecha">
+        
+        <input type="submit" id="enviar">
+        
     </form>
-
-    <div id="respuesta"></div>
-
-    <script src="app.js"></script>
+    <script src="code.js"></script>
 </body>
 </html>
